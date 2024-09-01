@@ -5,8 +5,6 @@ import ListProduct from "./ListProduct";
 function Home() {
   return (
     <>
-      {/* router dom */}
-
       {/* Navbar */}
       <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
@@ -53,7 +51,8 @@ function Home() {
 
               <a
                 className="block w-full rounded px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-                href="#"
+                href="https://wa.me/6285707185783?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20produk%20ini."
+                target="_blank"
               >
                 Chat Admin
               </a>
