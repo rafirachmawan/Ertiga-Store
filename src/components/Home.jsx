@@ -290,12 +290,17 @@ function Home() {
             </div>
           </div>
 
+          {/* group colection */}
           <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <li>
-              <a href="#" className="group block overflow-hidden">
+            <li className="group block overflow-hidden">
+              <a
+                href="https://wa.me/6285707185783?text=Halo%20Admin,%20saya%20ingin%20bertanya%20tentang%20produk%20'Kerudung%20Plasmina'%20yang%20berharga%20£24.00%20GBP."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                  alt=""
+                  alt="Basic Tee"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
@@ -305,22 +310,24 @@ function Home() {
                   </h3>
 
                   <p className="mt-2">
-                    <span className="sr-only"> Regular Price </span>
-
+                    <span className="sr-only">Regular Price</span>
                     <span className="tracking-wider text-gray-900">
-                      {" "}
-                      £24.00 GBP{" "}
+                      £24.00 GBP
                     </span>
                   </p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a href="#" className="group block overflow-hidden">
+            <li className="group block overflow-hidden">
+              <a
+                href="https://wa.me/6285707185783?text=Halo%20Admin,%20saya%20ingin%20bertanya%20tentang%20produk%20'Kerudung%20Plasmina'%20yang%20berharga%20£24.00%20GBP."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                  alt=""
+                  alt="Basic Tee"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
@@ -330,22 +337,24 @@ function Home() {
                   </h3>
 
                   <p className="mt-2">
-                    <span className="sr-only"> Regular Price </span>
-
+                    <span className="sr-only">Regular Price</span>
                     <span className="tracking-wider text-gray-900">
-                      {" "}
-                      £24.00 GBP{" "}
+                      £24.00 GBP
                     </span>
                   </p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a href="#" className="group block overflow-hidden">
+            <li className="group block overflow-hidden">
+              <a
+                href="https://wa.me/6285707185783?text=Halo%20Admin,%20saya%20ingin%20bertanya%20tentang%20produk%20'Kerudung%20Plasmina'%20yang%20berharga%20£24.00%20GBP."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                  alt=""
+                  alt="Basic Tee"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
@@ -355,22 +364,24 @@ function Home() {
                   </h3>
 
                   <p className="mt-2">
-                    <span className="sr-only"> Regular Price </span>
-
+                    <span className="sr-only">Regular Price</span>
                     <span className="tracking-wider text-gray-900">
-                      {" "}
-                      £24.00 GBP{" "}
+                      £24.00 GBP
                     </span>
                   </p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a href="#" className="group block overflow-hidden">
+            <li className="group block overflow-hidden">
+              <a
+                href="https://wa.me/6285707185783?text=Halo%20Admin,%20saya%20ingin%20bertanya%20tentang%20produk%20'Kerudung%20Plasmina'%20yang%20berharga%20£24.00%20GBP."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                  alt=""
+                  alt="Basic Tee"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
@@ -380,11 +391,9 @@ function Home() {
                   </h3>
 
                   <p className="mt-2">
-                    <span className="sr-only"> Regular Price </span>
-
+                    <span className="sr-only">Regular Price</span>
                     <span className="tracking-wider text-gray-900">
-                      {" "}
-                      £24.00 GBP{" "}
+                      £24.00 GBP
                     </span>
                   </p>
                 </div>
