@@ -1,20 +1,16 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home"; // Halaman utama
-import ListProduct from "./components/ListProduct"; // Halaman produk
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Routes>
-          {/* Route untuk halaman Home */}
           <Route path="/" element={<Home />} />
-
-          {/* Route untuk halaman ListProduct */}
-          <Route path="/products" element={<ListProduct />} />
+          {/* // <Route path="/result" element={<Result />} />
+          // <Route path="/detail" element={<DetailCar />} /> */}
         </Routes>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
