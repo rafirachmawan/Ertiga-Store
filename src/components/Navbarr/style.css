@@ -5,6 +5,7 @@
   align-items: center;
   background-color: #ff5722; /* Warna khas Shopee */
   padding: 10px 20px;
+  font-family: "Roboto", sans-serif; /* Menambahkan Roboto */
 }
 
 .navbar-left {
