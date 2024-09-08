@@ -1,48 +1,76 @@
-/* Pastikan Bootstrap diimpor terlebih dahulu di file utama proyek */
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-/* Custom CSS untuk Navbar Responsif */
+/* src/components/Navbar.css */
 .navbar {
-  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff5722; /* Warna khas Shopee */
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  flex: 1;
+  padding-left: 30px;
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 24px;
+  color: white !important; /* Menambahkan !important */
+  text-decoration: none;
   font-weight: bold;
 }
 
-.form-control {
-  margin-bottom: 0.5rem;
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-search {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.navbar-search-btn {
+  padding: 8px 20px;
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ff5722;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-right: 30px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
+  .navbar-center {
+    /* display: none; Sembunyikan search bar di layar kecil */
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .container-fluid {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-brand {
-    margin-bottom: 1rem;
-  }
-
-  .d-flex {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form-control {
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
-
-  .btn {
-    width: 100%;
+    padding: 10px;
   }
 }

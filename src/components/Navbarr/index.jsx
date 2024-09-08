@@ -1,27 +1,38 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
-const Navbarr = () => {
+const index = () => {
   return (
-    <nav className="navbar bg-body-tertiary">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+    <nav className="navbar">
+      <div className="navbar-left">
+        <Link to="/" className="navbar-brand">
           Ertiga Store
-        </a>
-        <form className="d-flex" role="search">
-          <input
-            className="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button className="btn btn-outline-success" type="submit">
-            Search
-          </button>
-        </form>
+        </Link>
+      </div>
+      <div className="navbar-center">
+        <input
+          type="text"
+          placeholder="Cari produk..."
+          className="navbar-search"
+        />
+        <button type="button" className="navbar-search-btn">
+          Cari
+        </button>
+      </div>
+      <div className="navbar-right">
+        <Link to="/cart" className="navbar-link">
+          Keranjang
+        </Link>
+        <Link to="/orders" className="navbar-link">
+          Pesanan
+        </Link>
+        <Link to="/profile" className="navbar-link">
+          Akun
+        </Link>
       </div>
     </nav>
   );
 };
-export default Navbarr;
+
+export default index;

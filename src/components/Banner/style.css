@@ -1,0 +1,25 @@
+/* style.css */
+
+/* Agar slider gambar responsif dan gambar berada di tengah */
+.slick-slide img {
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto; /* Agar gambar berada di tengah */
+  max-width: 100%; /* Membatasi lebar gambar agar tidak melampaui kontainer */
+  height: auto; /* Menjaga aspek rasio gambar */
+  max-height: 300px; /* Menentukan tinggi maksimum gambar agar tidak terlalu besar */
+  object-fit: cover; /* Memastikan gambar menyesuaikan ukuran kontainer dengan baik */
+}
+
+/* Optional: menyesuaikan ukuran tombol navigasi */
+.slick-prev,
+.slick-next {
+  z-index: 1; /* Agar tombol navigasi berada di atas konten */
+}
+
+/* Optional: menyesuaikan ukuran tombol navigasi */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 24px; /* Ubah ukuran tombol navigasi sesuai kebutuhan */
+  color: black; /* Ubah warna tombol sesuai kebutuhan */
+}
